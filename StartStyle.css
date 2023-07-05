@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #fcfcfc;
+}
+
+img {
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+  transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+}
+
+img:hover {
+  color: white;
+  box-shadow: rgba(221, 104, 9, 0.993) 0px 22px 70px 4px;
+  transform: translateY(-0.25em);
+  cursor: pointer;
+}
